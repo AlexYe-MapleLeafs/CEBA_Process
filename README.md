@@ -32,4 +32,4 @@ It illustrates the structure, configurations, and code required to automate CEBA
 
 ---
 
-![CEBA Process Diagram](/ceba_process_diagram.png)
+![CEBA Process Diagram](/CEBA_Process_Diagram.png)
