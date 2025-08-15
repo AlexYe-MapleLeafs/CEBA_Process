@@ -1,0 +1,11 @@
+Requirements.txt:
+
+# Required for python script
+pandas
+numpy
+datetime
+db_dtypes
+ 
+# Libraries for interacting with GCP services
+google-cloud-bigquery
+google-cloud-storage

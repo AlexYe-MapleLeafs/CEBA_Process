@@ -1,0 +1,11 @@
+build:
+  template: cida-docker:1.0
+  substitutions:
+    _BOUNDARY_CODE: cidat-10040
+    _DOCKER_IMAGE_NAME: ceba_alexye #replace with your image name
+    _DOCKER_IMAGE_TAG: 0.0.1 #replace with your image tag
+    _DOCKERFILE: Dockerfile #replace with the name of your dockerfile
+    _FORTIFY_INCULDE: ceba_report/ceba_automation_v1.py
+    _FORTIFY_SCAN_STRATEGY: SKIP
+    _BLACKDUCK_SCAN_STRATEGY: TRIGGER_ONLY
+    _BLACKDUCK_PROJECT_VERSION: docker-image-name:0.0.1
